@@ -1,0 +1,16 @@
+# Temp Files #
+##############
+*.swp
+*.DS_Store
+*.js
+*.css
+*.map
+
+chromedriver.log
+node_modules/
+
+!build_config.js
+!modules_config.js
+!spec-runner/*.js
+!src/bootstrap.js
+!src/bootstrap.css

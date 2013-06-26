@@ -1,0 +1,19 @@
+{
+  "author": [
+    "Peter Wong <peter.wm.wong@gmail.com>"
+  ],
+  "name": "cell-starter",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.10.12"
+  },
+  "dependencies": {
+    "clean-css":"1.0.10",
+    "coffee-script": "1.6.3",
+    "connect": "~2.7.5",
+    "karma": "~0.8.6",
+    "phantomjs": "~1.9.1",
+    "stylus": "0.32.1",
+    "uglify-js": "~2.2.5"
+  }
+}

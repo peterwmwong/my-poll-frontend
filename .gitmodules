@@ -1,0 +1,6 @@
+[submodule "vendor/jasmine"]
+	path = vendor/jasmine
+	url = git@github.com:pivotal/jasmine.git
+[submodule "vendor/cell"]
+	path = vendor/cell
+	url = git@github.com:peterwmwong/cell.git

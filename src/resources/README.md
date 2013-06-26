@@ -1,0 +1,1 @@
+Resources that interact with outside data sources.

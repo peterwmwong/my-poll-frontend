@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Spec Runner</title>
+  <link rel="shortcut icon" type="image/png" href="/vendor/jasmine/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="/vendor/jasmine/lib/jasmine-core/jasmine.css">
+  <link rel="stylesheet" type="text/css" href="./jasmine-override.css">
+</head>
+<body>
+  <script src="/vendor/jasmine/lib/jasmine-core/jasmine.js"></script>
+  <script src="/vendor/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+  <script src="../vendor/cell/src/require.js"></script>
+  <script src="../spec-runner/spec-modules-config.js"></script>
+<!--[if lte IE 8]>
+<script>
+  window.$$disableLiveReload = true;
+</script>
+<![endif]-->
+<script>
+if (window.$$disableLiveReload !== true) {
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+}
+</script>
+<div id="spec-fixture"></div>
+</body>
+</html>

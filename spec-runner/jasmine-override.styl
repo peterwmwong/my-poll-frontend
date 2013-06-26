@@ -1,0 +1,203 @@
+color_skipped = #113
+color_running = #331
+color_pass = #132
+color_fail = #311
+color_link = #BBB
+color_link_running = #FF8
+color_link_pass = #BFB
+color_link_fail = #FBB
+color_link_skipped = #BBF
+color_bg = #333
+color_bg_divider_pass = darken(#132,15%)
+color_bg_divider_fail = darken(#311,20%)
+
+body
+  background-color darken(color_bg,50%)
+  font-family Calibri,Helvetica,Arial,sans-serif
+  margin 0
+  padding 0
+
+.ui-spec-dom
+  position fixed
+  left 0px
+  top 0px
+  bottom 0px
+  right 0px
+  background-color #FFF
+  margin 40px 20px 10px 20px
+
+#TrivialReporter > .banner
+  position fixed
+  left 0px
+  top 0px
+  right 0px
+  background-color #444
+  box-shadow 0px 1px 8px #111
+  color white
+  height 20px
+  z-index 2
+
+  > .logo
+    float left
+    position relative
+    color #555
+    color rgba(0,0,0,0)
+
+    &:before
+      color color_link
+      text-shadow 0 -1px 0 #222
+      content 'Specs'
+      position absolute
+      width 250px
+      top 1px
+      font-size 16px
+      text-align left
+
+  > .options
+    float right
+    color #555
+    text-align left
+    font-size 0px
+    padding 1px 0 0 5px
+    width 200px
+    text-align right
+
+    > *
+      color color_link
+      font-size 14px
+      text-shadow 0 -1px 0 #222
+      font-variant small-caps
+
+#TrivialReporter > .runner
+  border none
+  margin 30px 0 0 0
+  padding 8px 10px 5px 10px
+  color color_link_running
+
+  > .finished-at
+    color color_link
+    font-size 12px
+
+  alpha_amt = .7
+  &.running
+    background-color color_running
+    border-bottom 2px solid rgba(color_link_running,alpha_amt)
+
+  &.passed
+    background-color color_pass
+    border-bottom 2px solid rgba(color_link_pass,alpha_amt)
+
+    a:visited, a
+      color color_link_pass
+
+  &.failed
+    background-color color_fail
+    border-bottom 2px solid rgba(color_link_fail,alpha_amt)
+
+    a:visited, a
+      color color_link_fail
+
+
+
+#TrivialReporter
+  margin 0
+  padding 0
+  background-color darken(color_bg,50%)
+
+  a:visited, a
+    text-decoration none
+    color color_link_running
+
+  .passed
+    > a:visited, a
+      color color_link_pass
+
+  .faied
+    > a:visited, a
+      color color_link_fail
+
+  .skipped
+    > a:visited, a
+      color color_link_skipped
+
+#TrivialReporter
+  .suite
+    border none
+    padding 15px 0 0 12px
+    margin 0
+    font-size 22px
+    background-color color_running
+
+    &:first-of-type
+      padding 5px 0 0 12px
+      &.passed, &.failed
+        border-top none
+
+    &.passed
+      background-color color_pass
+      > a
+        color color_link_pass
+
+    &.failed
+      background-color color_fail
+      > a
+        color color_link_fail
+
+    &.skipped
+      background-color color_skipped
+
+    .run_spec
+      margin-right 10px
+      
+    .suite
+      margin 5px 0 15px 0
+
+
+  .spec
+    margin 0 0 0 15px
+    padding 5px 0 0 10px
+    font-size 16px
+    font-weight normal
+    position relative
+
+    &:last-child
+      &.failed, &.passed, &.skipped
+        border none
+
+    &.failed, &.passed, &.skipped
+      border none
+
+    &.passed
+      background-color color_pass
+      > a
+        color color_link_pass
+
+    &.failed
+      background-color color_fail
+      > a
+        color color_link_fail
+
+    &.skipped
+      background-color color_skipped
+
+  .messages
+    border-left none
+    margin 0 0 0 2px
+    padding 0 10px 0 0px
+    color #CBB
+
+    border-left 5px solid rgba(color_link_fail,.1)
+
+    > .resultMessage
+      background-color darken(color_fail,50%)
+      padding 10px 0 0 10px
+      margin-top 5px
+
+      &:first-child
+        margin-top 3px
+
+    > .stackTrace
+      background-color darken(color_fail,50%)
+      border none
+      margin 0
+      padding 3px 0 0 10px
