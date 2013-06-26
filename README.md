@@ -1,5 +1,5 @@
-cell-starter
-============
+cell-starter-project
+====================
 
 Hit the ground running by starting out with this project.
 Develop, test, and build. It's all here.
@@ -49,13 +49,13 @@ Visit [http://localhost:3000/spec-runner/](http://localhost:3000/spec-runner/)
 Running Specs from the command line
 -----------------------------------
 
-  > make specs
+    > make specs
 
 
 Building for production
 -----------------------
 
-  > make clean; make
+    > make clean; make
 
 In a browser, go to [http://localhost:3000/index.html](http://localhost:3000/index.html).
 

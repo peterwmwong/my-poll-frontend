@@ -2,7 +2,7 @@
   "author": [
     "Peter Wong <peter.wm.wong@gmail.com>"
   ],
-  "name": "cell-starter",
+  "name": "cell-starter-project",
   "version": "0.0.0",
   "engines": {
     "node": ">=0.10.12"
