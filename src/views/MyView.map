@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "MyView.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "src/views/MyView.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,CAAO,EAAA,GAAP,CAAO,EAAC;CAGE,MAAR,EAAA,SAAA;CAEE;;;;;;;;;;;;;;;;;CAAA;CAkBA;;;;;;;CAlBA;CAAA,CAyBQ,CAAA,CAAR,EAAA,GAAS;CACP,CACE,IADF,OADY,OACZ;CA1BF,IAyBQ;CA9BL,GAGL;CAHK"
+}

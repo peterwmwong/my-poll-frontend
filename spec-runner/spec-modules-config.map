@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "spec-modules-config.js",
+  "sourceRoot": "..",
+  "sources": [
+    "spec-runner/spec-modules-config.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,CAAU,KAAV,GAAS;CACP,CAAA,KAAA,KAAA;CAAA,CACA,CAE2B,GAAhB,CAFX,EAEE,EAHF,EAGE;CAHF,CAMA,GAAA;CACE,CAAe,EAAf,SAAA,eAAA;CAAA,CACQ,EAAR,EAAA,eADA;CAAA,CAEQ,EAAR,EAAA,cAFA;CAAA,CAG4B,EAA5B,sBAAA,eAHA;IAPF;CAAA,CAaA,EAAA,uBAAM;CAdR,CAAA"
+}

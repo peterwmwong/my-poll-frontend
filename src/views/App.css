@@ -1,0 +1,4 @@
+html{background-color:#eee}
+.App{font-family:Helvetica,Arial,sans-serif;width:480px;margin:50px auto;display:block;background-color:#fff;box-shadow:0 1px 5px #bbb;font-size:1.25em;color:#444;line-height:1.5em;}
+.App h1{text-align:center;background-color:#d4423b;color:#fff;padding:20px 10px 15px 10px;margin:0;font-size:26px;border-bottom:4px solid #9c2822}
+.App .content{padding:30px;min-width:300px}

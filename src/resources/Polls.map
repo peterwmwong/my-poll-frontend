@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "Polls.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "src/resources/Polls.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,CAAO,EAAA,GAAP,CAAO,EAAC;CACN,KAAA,cAAA;CAAA,CAAA,CAAW,IAAA,CAAX,OAAW;CAAX,CACA,CAAa,IAAA,GAAb,OAAa;CAGX,GADE,IAAA,CAAA;CACF,CAAK,CAAL,CAAA,qHAAA;CAAA,CAEE,EADF,EAAA;CACE,CAAA,IAAA;MAFF;CAAA,CAGW,CAAA,CAAX,KAAA;CACE,EAAG,CAAe,EAAlB,CAAA,GAAkB;CADT,YAET;CALF,IAGW;CARR,GAID;CAJC"
+}

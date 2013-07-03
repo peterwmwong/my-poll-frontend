@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "PollResults.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "src/resources/PollResults.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,CAAO,CAAmB,CAAA,GAA1B,EAA0B,CAAC,MAApB;CAEH,GADE,IAAA,CAAA;CACF,CAAK,CAAL,CAAA,kIAAA;CAAA,CAEE,EADF,EAAA;CACE,CAAA,IAAA;CAAA,CACG,IAAH;MAHF;CAFsB,GACpB;CADoB"
+}

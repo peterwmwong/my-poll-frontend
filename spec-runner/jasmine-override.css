@@ -1,0 +1,41 @@
+body{background-color:#1a1a1a;font-family:Calibri,Helvetica,Arial,sans-serif;margin:0;padding:0}
+.ui-spec-dom{position:fixed;left:0;top:0;bottom:0;right:0;background-color:#fff;margin:40px 20px 10px 20px}
+#TrivialReporter > .banner{position:fixed;left:0;top:0;right:0;background-color:#444;box-shadow:0 1px 8px #111;color:#fff;height:20px;z-index:2;}
+#TrivialReporter > .banner > .logo{float:left;position:relative;color:#555;color:rgba(0,0,0,0);}
+#TrivialReporter > .banner > .logo:before{color:#bbb;text-shadow:0 -1px 0 #222;content:'Specs';position:absolute;width:250px;top:1px;font-size:16px;text-align:left}
+#TrivialReporter > .banner > .options{float:right;color:#555;text-align:left;font-size:0;padding:1px 0 0 5px;width:200px;text-align:right;}
+#TrivialReporter > .banner > .options > *{color:#bbb;font-size:14px;text-shadow:0 -1px 0 #222;font-variant:small-caps}
+#TrivialReporter > .runner{border:none;margin:30px 0 0 0;padding:8px 10px 5px 10px;color:#ff8;}
+#TrivialReporter > .runner > .finished-at{color:#bbb;font-size:12px}
+#TrivialReporter > .runner.running{background-color:#331;border-bottom:2px solid rgba(255,255,136,0.7)}
+#TrivialReporter > .runner.passed{background-color:#132;border-bottom:2px solid rgba(187,255,187,0.7);}
+#TrivialReporter > .runner.passed a:visited,#TrivialReporter > .runner.passed a{color:#bfb}
+#TrivialReporter > .runner.failed{background-color:#311;border-bottom:2px solid rgba(255,187,187,0.7);}
+#TrivialReporter > .runner.failed a:visited,#TrivialReporter > .runner.failed a{color:#fbb}
+#TrivialReporter{margin:0;padding:0;background-color:#1a1a1a;}
+#TrivialReporter a:visited,#TrivialReporter a{text-decoration:none;color:#ff8}
+#TrivialReporter .passed > a:visited,#TrivialReporter .passed a{color:#bfb}
+#TrivialReporter .faied > a:visited,#TrivialReporter .faied a{color:#fbb}
+#TrivialReporter .skipped > a:visited,#TrivialReporter .skipped a{color:#bbf}
+#TrivialReporter .suite{border:none;padding:15px 0 0 12px;margin:0;font-size:22px;background-color:#331;}
+#TrivialReporter .suite:first-of-type{padding:5px 0 0 12px;}
+#TrivialReporter .suite:first-of-type.passed,#TrivialReporter .suite:first-of-type.failed{border-top:none}
+#TrivialReporter .suite.passed{background-color:#132;}
+#TrivialReporter .suite.passed > a{color:#bfb}
+#TrivialReporter .suite.failed{background-color:#311;}
+#TrivialReporter .suite.failed > a{color:#fbb}
+#TrivialReporter .suite.skipped{background-color:#113}
+#TrivialReporter .suite .run_spec{margin-right:10px}
+#TrivialReporter .suite .suite{margin:5px 0 15px 0}
+#TrivialReporter .spec{margin:0 0 0 15px;padding:5px 0 0 10px;font-size:16px;font-weight:normal;position:relative;}
+#TrivialReporter .spec:last-child.failed,#TrivialReporter .spec:last-child.passed,#TrivialReporter .spec:last-child.skipped{border:none}
+#TrivialReporter .spec.failed,#TrivialReporter .spec.passed,#TrivialReporter .spec.skipped{border:none}
+#TrivialReporter .spec.passed{background-color:#132;}
+#TrivialReporter .spec.passed > a{color:#bfb}
+#TrivialReporter .spec.failed{background-color:#311;}
+#TrivialReporter .spec.failed > a{color:#fbb}
+#TrivialReporter .spec.skipped{background-color:#113}
+#TrivialReporter .messages{border-left:none;margin:0 0 0 2px;padding:0 10px 0 0;color:#cbb;border-left:5px solid rgba(255,187,187,0.1);}
+#TrivialReporter .messages > .resultMessage{background-color:#1a0808;padding:10px 0 0 10px;margin-top:5px;}
+#TrivialReporter .messages > .resultMessage:first-child{margin-top:3px}
+#TrivialReporter .messages > .stackTrace{background-color:#1a0808;border:none;margin:0;padding:3px 0 0 10px}

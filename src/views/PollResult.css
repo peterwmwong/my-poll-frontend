@@ -1,0 +1,6 @@
+.PollResult > h2{color:#d4423b;margin:30px 0 0 0;font-size:24px}
+.PollResult > .content{margin:0 0 20px 0;padding-top:20px;}
+.PollResult > .content > .done{margin:20px 0 0 0;display:block;text-align:center}
+.PollResult > .content > .results > .result{position:relative;z-index:1;}
+.PollResult > .content > .results > .result .count{position:absolute;height:100%;right:5px;top:0;min-width:30px;display:block;text-align:right;color:#888}
+.PollResult > .content > .results > .result .bar{background-color:#eee;position:absolute;bottom:3px;right:0;top:0;z-index:-1}
