@@ -65,7 +65,7 @@ The Stack
 
 - [cell](https://github.com/peterwmwong/cell)
 - [coffee-script](http://coffeescript.org/)
-- [jasmine](http://pivotal.github.io/jasmine/)
+- [jasmine](https://jasmine.github.io/)
 - [require.js](http://requirejs.org/)
 - [stylus](http://learnboost.github.io/stylus/)
 
